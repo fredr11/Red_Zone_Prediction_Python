@@ -166,8 +166,8 @@ Clustering did not produce a viable substitute for prediction, but it did surfac
 │   └── Red_Zone_Prediction_Analysis.ipynb
 │
 ├── .gitignore
-├── Requirements.txt
-└── README.md
+├── README.md
+└── Requirements.txt
 ```
 
 ---
