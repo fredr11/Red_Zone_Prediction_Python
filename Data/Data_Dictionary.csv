@@ -1,0 +1,33 @@
+﻿Variable Name,Description
+Segment_ ID,Unique identifier for each road segment
+Road Full Name,Full name of the road segment
+Road_Segment_ Name,Specific name of the road segment
+Road_Type,"Classification of the road (e.g., Highway, Street)"
+Intersection,"Presence of an intersection (1 = Yes, 0 = No)"
+Speed_Sign,"Presence of a speed sign (1 = Yes, 0 = No)"
+Traffic_Light,"Presence of a traffic signal (1 = Yes, 0 = No)"
+Liquor_Licenses,Number of liquor licenses within the road segment
+Supermarket,"Presence of a supermarket (1 = Yes, 0 = No)"
+Primary_School,"Presence of a primary school (1 = Yes, 0 = No)"
+Secondary_School,"Presence of a secondary school (1 = Yes, 0 = No)"
+Commercial Area,Percentage of land allocated for commercial use
+Industrial Area,Percentage of land allocated for industrial use
+Residential Area,Percentage of land allocated for residential use
+Parkland Area,Percentage of land allocated for parkland use
+Primary_Production_Area,Percentage of land allocated for primary production
+Dwelling_Sep_House,Percentage of dwellings that are separate houses
+Dwelling_Semid_Tce,Percentage of dwellings that are semi-detached or terrace
+Dwelling_Flat_Unit_Apart,"Percentage of dwellings that are flats, units, or apartments"
+SEIFA,Socio-Economic Index for Areas (1000 = Avg; >1000 = Above Avg; <1000 = Below Avg)
+Age_Less_Than_15yrs,Percentage of population aged under 15 years
+Age 15_24yrs,Percentage of population aged 15-24 years
+Age 25_44yrs,Percentage of population aged 25-44 years
+Age 45_64yrs,Percentage of population aged 45-64 years
+Age_65yrs_Over,Percentage of population aged 65 years and over
+Couple_No_Children,Percentage of couple households without children
+Couple_With_Children,Percentage of couple households with children
+Single_Parent,Percentage of single-parent households
+No Car,Percentage of households without a car
+Cars One,Percentage of households with one car
+Cars Two Over,Percentage of households with two or more cars
+Zone_Type,"Classification as a red zone (1 - Yes, O = No)"
