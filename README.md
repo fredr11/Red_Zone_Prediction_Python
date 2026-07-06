@@ -6,7 +6,7 @@ This project uses supervised and unsupervised machine learning to identify **Red
 
 Using Python, I developed and compared multiple classification models to predict Red Zones, and applied clustering to explore natural groupings in road segment characteristics. The analysis combines data quality assessment, exploratory data analysis, feature selection, model development, and business recommendations into a single end-to-end workflow.
 
-![Zone Type Distribution](Images/01_zone_type_distribution.png)
+![Zone Type Distribution](images/01_zone_type_distribution.png)
 
 ---
 
@@ -69,11 +69,11 @@ Net effect: 16.06% of rows (805 of 5,013) were removed, along with several unrel
 
 Univariate and bivariate analysis was used to understand feature distributions and their relationship to `Zone_Type`, including regression plots, KDE plots, box plots, and a full correlation heatmap.
 
-![Correlation Heatmap](Images/03_correlation_heatmap.png)
+![Correlation Heatmap](images/03_correlation_heatmap.png)
 
 Mutual information scores were also calculated to guide feature selection independently of linear correlation assumptions, which mattered given several predictors are categorical/binary rather than continuous.
 
-![Feature Importance — Mutual Information](Images/04_feature_importance_mutual_info.png)
+![Feature Importance — Mutual Information](images/04_feature_importance_mutual_info.png)
 
 ### 3. Supervised Machine Learning
 
@@ -99,19 +99,19 @@ Two model families were developed and compared:
 | F1 | 0.58 | 0.52 | 0.60 | 0.59 |
 | ROC AUC | 0.74 | 0.89 | 0.88 | — |
 
-![ROC Curve Comparison](Images/05_roc_curve_comparison.png)
+![ROC Curve Comparison](images/05_roc_curve_comparison.png)
 
-![Confusion Matrix — Best Model](Images/06_confusion_matrix_best_model.png)
+![Confusion Matrix — Best Model](images/06_confusion_matrix_best_model.png)
 
-![Optimized Decision Tree Structure](Images/07_optimized_decision_tree.png)
+![Optimized Decision Tree Structure](images/07_optimized_decision_tree.png)
 
 ### 4. Unsupervised Machine Learning — Clustering
 
 A K-Means clustering model was built on features selected via mutual information (intersection presence, SEIFA index, dwelling type, and age bands). After testing cluster counts from 2 to 40 against WCSS, silhouette score, and Davies-Bouldin index, **k = 3** was selected as the best-separated solution (silhouette score 0.49, Davies-Bouldin index 0.79).
 
-![Cluster Distribution of Red Zones](Images/08_cluster_red_zone_distribution.png)
+![Cluster Distribution of Red Zones](images/08_cluster_red_zone_distribution.png)
 
-![3D Cluster Visualization](Images/09_cluster_3d_visualization.png)
+![3D Cluster Visualization](images/09_cluster_3d_visualization.png)
 
 The clusters revealed meaningful natural groupings (e.g. one cluster skewed toward older residents, higher intersection density, and a much higher concentration of Red Zones), but the cluster sizes and Red Zone distributions were too imbalanced across clusters to serve as a standalone tool.
 
