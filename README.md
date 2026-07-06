@@ -147,11 +147,11 @@ Clustering did not produce a viable substitute for prediction, but it did surfac
 ## Repository Structure
 
 ```text
-├── Data
-│   ├── Data_Dictionary.csv
-│   └── Sample_Dataset.csv
+├── data/
+│   ├── data_dictionary.csv
+│   └── sample_dataset.csv
 │
-├── Images
+├── images/
 │   ├── 01_zone_type_distribution.png
 │   ├── 02_road_type_distribution.png
 │   ├── 03_correlation_heatmap.png
@@ -162,12 +162,12 @@ Clustering did not produce a viable substitute for prediction, but it did surfac
 │   ├── 08_cluster_red_zone_distribution.png
 │   └── 09_cluster_3d_visualization.png
 │
-├── Notebooks
-│   └── Red_Zone_Prediction_Analysis.ipynb
+├── notebooks
+│   └── red_zone_prediction_analysis.ipynb
 │
 ├── .gitignore
 ├── README.md
-└── Requirements.txt
+└── requirements.txt
 ```
 
 ---
