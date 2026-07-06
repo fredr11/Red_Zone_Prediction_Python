@@ -162,7 +162,7 @@ Clustering did not produce a viable substitute for prediction, but it did surfac
 │   ├── 08_cluster_red_zone_distribution.png
 │   └── 09_cluster_3d_visualization.png
 │
-├── notebooks
+├── notebooks/
 │   └── red_zone_prediction_analysis.ipynb
 │
 ├── .gitignore
